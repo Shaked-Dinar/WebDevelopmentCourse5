@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>הפקולטה לטכנולוגיות למידה-HIT</title>
+    <meta name="description" content="רוצים לשמוע קצת על הפקולטה לטכנולוגיות למידה בHIT? זה המקום~" />
+    <meta name="keywords" content="HIT, היט, טכנולוגיות למידה, טכנולוגיות, למידה, טכנולוגיה, עיצוב, פיתוח הדרכה" />
+    <meta name="author" content="shake dinar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="fonts/open sans.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="images/background.jpg" width="960" />
+            <h1>
+                הפקולטה לטכנולוגיות למידה
+            </h1>
+        </header>
+
+        <section class="about">
+            <h2>יתרונות התואר</h2>
+            <ul>
+                <li>התואר משלב <section class="kind">טכנולוגיה</section>, <section class="kind">פיתוח הדרכה</section><br/>
+                    <section class="kind">ועיצוב מולטימדיה אינטראקטיבית. </section> </li>
+                <li> המקום <section class="bold">היחיד</section> בארץ בו קיים תואר אקדמי ייחודי זה. </li>               
+                <li>
+                    בוגרי התואר הראשון מתעסקים במספר תפקידי <br/>
+                    מפתח בארגונים מובילים 
+                    <section class="bold">בתחומים מגוונים.</section>
+                </li>
+            </ul>
+         </section>
+        <aside>
+            <div id="more" class="about">
+                <a href="http://www.hit.ac.il/telem/overview" target="_blank">לקריאה עוד על התואר</a>
+            </div> 
+             </aside>
+        <section>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="shaked.dinar1@gmail.com">
+                <p>
+                    מעוניין לשמוע פרטים נוספים?<br/>
+                    הזן כאן את פרטייך, ונחזור אליך בהקדם!
+                </p>
+                <label for="fName">
+                    הזן שם פרטי:
+                    <input type="text" id="fName" placeholder="שם פרטי" />
+                </label>
+
+                <label for="lName">
+                    הזן שם משפחה:
+                    <input type="text" id="lName" placeholder="שם משפחה" />
+                </label>
+
+                <label for="phoneNum">
+                    הזן מספר טלפון:
+                    <input type="text" id="phoneNum" placeholder="מספר טלפון" />
+                </label>
+
+                <label for="email">
+                    הזן מייל:
+                    <input type="email" id="email" placeholder="מייל" />
+                </label>
+
+                <label for="other">
+                   הערות:
+                   <textarea id="other" rows="5"></textarea>
+                </label>
+
+                <label for="cB">
+                    <input type="checkbox" id="cB" checked />מוכן לקבל עדכונים לגבי התואר
+                </label>
+                <br/>
+                <input type="submit" id="sendTo" value="שלח" />
+                <br/>
+                <div id="feedback"></div>
+
+
+            </form>
+        </section>
+
+
+
+
+    </div>
+</body>
+</html>

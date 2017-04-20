@@ -1,0 +1,126 @@
+body 
+{
+    direction:rtl;
+    background-color:#E5E5E5;
+}
+#container{
+    width:960px;
+    margin:0 auto;
+height:828px;
+background-color:white;
+}
+h1{
+    font-family: 'OpenSansHebrew-ExtraBold';
+    font-size:39pt;
+    text-align:center;
+    height:65px;
+    color:white;
+    background-color:#246C97;
+    margin-top:-3px;
+    padding-top:2px;
+}
+h2{
+    font-family: 'OpenSansHebrew-ExtraBold';
+    font-size:28pt;
+    color:#246C97;
+    margin-right:15px;
+    margin-top:20px;
+
+    }
+ul{
+    width:460px;
+}
+li{
+    list-style-type:none;
+    background-image:url(../images/bullet.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    font-family: 'OpenSansHebrew-Regular';
+    font-size:18pt;
+    padding-right:15px;
+    padding-top:14px;
+}
+#more{
+    clear:both;
+    float:right;
+    background-color:#246C97;
+    font-size:20pt;
+    font-family: 'OpenSansHebrew-ExtraBold';
+    width:300px;
+    height:30px;
+    text-align:center;
+    margin-top:15px;
+    -webkit-border-radius: 10px;
+border-radius: 10px;
+}
+a{
+
+    text-decoration:none;
+    color:white;
+}
+
+input[type ='text'], input[type ='number'] , input[type ='email'] ,textarea{
+    display:block;
+    margin-bottom:6px;
+    margin-top:2px;
+    width: 254px;
+}
+form{
+    float:left;
+    background-color:#246C97;
+    padding-right: 15px;
+    width: 280px;
+    color: white;
+    font-size: 13pt;
+    margin-left: 65px;
+    margin-top: -291px;
+    }
+label{
+    font-family: 'OpenSansHebrew-Regular';
+
+}
+#feedback{
+       font-family: 'OpenSansHebrew-Regular';
+       background-color:white;
+       width:180px;
+  
+}
+form p{
+    padding-top:2px;
+    color:white;
+    font-family: 'OpenSansHebrew-Regular';
+    font-size: 13pt;
+    margin-bottom:10px;
+  
+}
+.about{
+    margin-top:84px;
+    margin-right:65px;
+    width: 460px;
+    float: right;
+}
+#sendTo{
+        font-family: 'OpenSansHebrew-Regular';
+background-color:darkblue;
+color:white;
+
+}
+.kind{
+        font-family: 'OpenSansHebrew-Bold';
+    font-size:18pt;
+    display:inline-block;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.kind:hover{
+        font-size:19pt;
+          
+}
+.bold{
+    font-family: 'OpenSansHebrew-Bold';
+        display:inline-block;
+
+}
